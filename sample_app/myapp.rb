@@ -1,4 +1,5 @@
 # myapp.rb
+require 'bundler/setup'
 require 'sinatra'
 
 class Stream
