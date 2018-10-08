@@ -1,6 +1,7 @@
 # myapp.rb
 require 'bundler/setup'
 require 'sinatra'
+require "sinatra/reloader" if development?
 
 class Stream
   def each
